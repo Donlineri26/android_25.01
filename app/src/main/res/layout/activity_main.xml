@@ -17,6 +17,7 @@
             android:layout_alignParentBottom="true"
             android:scrollbarSize="0dp">
             <LinearLayout
+                android:id="@+id/home_linearLayout"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
@@ -25,30 +26,43 @@
                     android:background="@drawable/roof"
                     android:layout_width="300dp"
                     android:layout_height="154dp">
+                    <ImageView
+                        android:id="@+id/roof_window"
+                        android:layout_width="48dp"
+                        android:layout_height="58dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="30dp"
+                        android:src="@drawable/window"
+                        android:visibility="gone"/>
                 </RelativeLayout>
                 <include
                     android:id="@+id/fifth_stage"
                     android:layout_width="240dp"
                     android:layout_height="134dp"
                     android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
                     layout="@layout/stage"/>
                 <include
                     android:id="@+id/fourth_stage"
                     android:layout_width="240dp"
                     android:layout_height="134dp"
                     android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
                     layout="@layout/stage"/>
                 <include
                     android:id="@+id/third_stage"
                     android:layout_width="240dp"
                     android:layout_height="134dp"
                     android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
                     layout="@layout/stage"/>
                 <include
                     android:id="@+id/second_stage"
                     android:layout_width="240dp"
                     android:layout_height="134dp"
                     android:layout_gravity="center_horizontal"
+                    android:visibility="gone"
                     layout="@layout/stage"/>
                 <RelativeLayout
                     android:id="@+id/first_stage"

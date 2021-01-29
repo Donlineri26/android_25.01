@@ -32,7 +32,7 @@
                 android:id="@+id/radio_door_left"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:checked="true"
+                android:checked="false"
                 android:text="@string/door_left"
                 android:textSize="16sp"/>
 
@@ -41,7 +41,7 @@
             android:id="@+id/roof_window_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:checked="true"
+            android:checked="false"
             android:text="@string/window_on_the_roof"
             android:textSize="14sp"/>
         <TextView
